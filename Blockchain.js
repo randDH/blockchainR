@@ -10,7 +10,7 @@ class Blockchain{
     }
 
     init(){
-        return new Block(0, "01/01/2022", "Genesis Block", "0");;
+        return new Block(0, "01/01/2022", "Genesis Block", "0");
     }
 
     addBlock(newBlock){
